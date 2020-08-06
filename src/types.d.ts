@@ -5,8 +5,6 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 3.0
 
-/// <reference types="express-session" />
-
 import * as express from 'express';
 import * as mongoose from 'mongoose';
 import * as mongodb from 'mongodb';
