@@ -8,7 +8,7 @@
 import * as express from 'express';
 import * as mongoose from 'mongoose';
 import * as mongodb from 'mongodb';
-import * as session from '@holdyourwaffle/express-session';
+import * as session from 'express-session';
 
 declare function connectMongo(connect: (options?: session.SessionOptions) => express.RequestHandler): connectMongo.MongoStoreFactory;
 
